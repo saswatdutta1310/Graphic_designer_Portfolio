@@ -565,6 +565,14 @@ section.animate {
     position: relative;
 }
 
+.portfolio-image iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    object-fit: cover;
+}
+
 .portfolio-card:nth-child(2) .portfolio-image { background: var(--gradient-2); }
 .portfolio-card:nth-child(3) .portfolio-image { background: var(--gradient-3); }
 .portfolio-card:nth-child(4) .portfolio-image { 
